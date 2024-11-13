@@ -615,3 +615,269 @@
 13-11-2024 13:27:55 - INFO - Session closed
 13-11-2024 13:27:55 - INFO - Exitting ......
 13-11-2024 13:27:55 - INFO - Connection closed
+13-11-2024 14:52:10 - ERROR - Error while creating engine: No module named 'MySQLdb'
+13-11-2024 14:52:10 - ERROR - Traceback to line no. 42
+13-11-2024 14:52:10 - ERROR - Oops Something went wrong! Database not initialized
+13-11-2024 14:52:10 - ERROR - Traceback to line no. 14
+13-11-2024 14:52:25 - ERROR - Error while creating engine: No module named 'MySQLdb'
+13-11-2024 14:52:25 - ERROR - Traceback to line no. 42
+13-11-2024 14:52:25 - ERROR - Oops Something went wrong! Database not initialized
+13-11-2024 14:52:25 - ERROR - Traceback to line no. 14
+13-11-2024 14:52:42 - INFO - Engine created
+13-11-2024 14:52:48 - INFO - Login Successful. Welcome aditya
+13-11-2024 14:52:52 - ERROR - Login Error: '<' not supported between instances of 'str' and 'int'
+13-11-2024 14:52:52 - ERROR - Traceback to line no. 124
+13-11-2024 14:52:55 - INFO - Session closed
+13-11-2024 14:52:55 - INFO - Exitting ......
+13-11-2024 14:52:55 - INFO - Connection closed
+13-11-2024 14:53:33 - INFO - Engine created
+13-11-2024 14:53:50 - INFO - Login Successful. Welcome aditya
+13-11-2024 14:54:19 - INFO - Session closed
+13-11-2024 14:54:19 - INFO - Exitting ......
+13-11-2024 14:54:19 - INFO - Connection closed
+13-11-2024 14:55:18 - INFO - Engine created
+13-11-2024 14:55:22 - INFO - Login Successful. Welcome new
+13-11-2024 14:55:43 - INFO - Session closed
+13-11-2024 14:55:43 - INFO - Exitting ......
+13-11-2024 14:55:43 - INFO - Connection closed
+13-11-2024 14:55:56 - INFO - Engine created
+13-11-2024 14:56:02 - INFO - Login Successful. Welcome aditya
+13-11-2024 14:56:03 - INFO - Session closed
+13-11-2024 14:56:03 - INFO - Exitting ......
+13-11-2024 14:56:03 - INFO - Logout Successful. Bye aditya
+13-11-2024 14:56:03 - INFO - Connection closed
+13-11-2024 15:20:42 - INFO - Engine created
+13-11-2024 15:20:45 - INFO - Session closed
+13-11-2024 15:20:45 - INFO - Exitting ......
+13-11-2024 15:20:45 - INFO - Connection closed
+13-11-2024 16:37:32 - INFO - Engine created
+13-11-2024 16:37:33 - INFO - Session closed
+13-11-2024 16:37:33 - INFO - Exitting ......
+13-11-2024 16:37:33 - INFO - Connection closed
+13-11-2024 16:37:44 - INFO - Engine created
+13-11-2024 16:37:49 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:37:54 - ERROR - No data found
+13-11-2024 16:37:54 - ERROR - Redis set error: {e}
+13-11-2024 16:37:54 - ERROR - Traceback to line no. 23
+13-11-2024 16:38:07 - INFO - Session closed
+13-11-2024 16:38:07 - INFO - Exitting ......
+13-11-2024 16:38:07 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:38:07 - INFO - Connection closed
+13-11-2024 16:38:20 - INFO - Engine created
+13-11-2024 16:38:23 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:38:26 - ERROR - No data found
+13-11-2024 16:38:26 - ERROR - Redis set error: Object of type datetime is not JSON serializable
+13-11-2024 16:38:26 - ERROR - Traceback to line no. 23
+13-11-2024 16:38:29 - INFO - Session closed
+13-11-2024 16:38:29 - INFO - Exitting ......
+13-11-2024 16:38:29 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:38:29 - INFO - Connection closed
+13-11-2024 16:42:56 - INFO - Engine created
+13-11-2024 16:43:00 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:43:04 - ERROR - No data found
+13-11-2024 16:43:04 - ERROR - Redis set error: RedisCache._json_serial() takes 1 positional argument but 2 were given
+13-11-2024 16:43:04 - ERROR - Traceback to line no. 33
+13-11-2024 16:44:42 - INFO - Session closed
+13-11-2024 16:44:42 - INFO - Exitting ......
+13-11-2024 16:44:42 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:44:42 - INFO - Connection closed
+13-11-2024 16:47:27 - INFO - Engine created
+13-11-2024 16:47:30 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:47:33 - ERROR - No data found
+13-11-2024 16:47:33 - ERROR - Redis set error: wrong number of arguments for 'expire' command
+13-11-2024 16:47:33 - ERROR - Traceback to line no. 42
+13-11-2024 16:47:36 - INFO - Session closed
+13-11-2024 16:47:36 - INFO - Exitting ......
+13-11-2024 16:47:36 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:47:36 - INFO - Connection closed
+13-11-2024 16:49:40 - INFO - Engine created
+13-11-2024 16:49:43 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:49:55 - INFO - Session closed
+13-11-2024 16:49:55 - INFO - Exitting ......
+13-11-2024 16:49:55 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:49:55 - INFO - Connection closed
+13-11-2024 16:50:09 - INFO - Engine created
+13-11-2024 16:50:13 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:50:49 - INFO - Session closed
+13-11-2024 16:50:49 - INFO - Exitting ......
+13-11-2024 16:50:49 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:50:49 - INFO - Connection closed
+13-11-2024 16:51:48 - INFO - Engine created
+13-11-2024 16:51:51 - ERROR - Login Error: cannot unpack non-iterable NoneType object
+13-11-2024 16:51:51 - ERROR - Traceback to line no. 36
+13-11-2024 16:52:28 - INFO - Session closed
+13-11-2024 16:52:28 - INFO - Exitting ......
+13-11-2024 16:52:28 - INFO - Connection closed
+13-11-2024 16:52:29 - INFO - Engine created
+13-11-2024 16:52:31 - ERROR - Wrong username or password
+13-11-2024 16:52:37 - ERROR - Wrong username or password
+13-11-2024 16:52:43 - ERROR - Login Error: cannot unpack non-iterable NoneType object
+13-11-2024 16:52:43 - ERROR - Traceback to line no. 36
+13-11-2024 16:53:19 - INFO - Session closed
+13-11-2024 16:53:19 - INFO - Exitting ......
+13-11-2024 16:53:19 - INFO - Connection closed
+13-11-2024 16:53:19 - INFO - Engine created
+13-11-2024 16:53:22 - ERROR - Wrong username or password
+13-11-2024 16:53:29 - ERROR - Wrong username or password
+13-11-2024 16:53:41 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:54:41 - INFO - Session closed
+13-11-2024 16:54:41 - INFO - Exitting ......
+13-11-2024 16:54:41 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:54:41 - INFO - Connection closed
+13-11-2024 16:54:54 - INFO - Engine created
+13-11-2024 16:54:57 - ERROR - Wrong username or password
+13-11-2024 16:54:59 - ERROR - Invalid task: aditya
+13-11-2024 16:55:06 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:55:08 - ERROR - No data found
+13-11-2024 16:55:08 - INFO - Session closed
+13-11-2024 16:55:08 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:55:08 - INFO - Connection closed
+13-11-2024 16:57:05 - INFO - Engine created
+13-11-2024 16:57:06 - ERROR - Invalid task: loing
+13-11-2024 16:57:11 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:57:14 - ERROR - No data found
+13-11-2024 16:57:14 - INFO - Session closed
+13-11-2024 16:57:14 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:57:14 - INFO - Connection closed
+13-11-2024 16:57:28 - INFO - Engine created
+13-11-2024 16:57:32 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:57:37 - ERROR - Invalid task: mmydata
+13-11-2024 16:57:41 - ERROR - No data found
+13-11-2024 16:57:41 - INFO - Session closed
+13-11-2024 16:57:41 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:57:41 - INFO - Connection closed
+13-11-2024 16:58:36 - INFO - Engine created
+13-11-2024 16:58:38 - INFO - Session closed
+13-11-2024 16:58:38 - INFO - Exitting ......
+13-11-2024 16:58:38 - INFO - Connection closed
+13-11-2024 16:59:01 - INFO - Engine created
+13-11-2024 16:59:06 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:59:13 - ERROR - No data found
+13-11-2024 16:59:13 - INFO - Session closed
+13-11-2024 16:59:13 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:59:13 - INFO - Connection closed
+13-11-2024 16:59:22 - INFO - Engine created
+13-11-2024 16:59:26 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:59:29 - ERROR - No data found
+13-11-2024 16:59:29 - ERROR - Redis set error: Invalid input of type: 'dict'. Convert to a bytes, string, int or float first.
+13-11-2024 16:59:29 - ERROR - Traceback to line no. 44
+13-11-2024 16:59:37 - INFO - Session closed
+13-11-2024 16:59:37 - INFO - Exitting ......
+13-11-2024 16:59:37 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:59:37 - INFO - Connection closed
+13-11-2024 16:59:47 - INFO - Engine created
+13-11-2024 16:59:50 - INFO - Login Successful. Welcome aditya
+13-11-2024 16:59:53 - ERROR - No data found
+13-11-2024 16:59:53 - ERROR - Redis set error: wrong number of arguments for 'expire' command
+13-11-2024 16:59:53 - ERROR - Traceback to line no. 47
+13-11-2024 16:59:55 - INFO - Session closed
+13-11-2024 16:59:55 - INFO - Exitting ......
+13-11-2024 16:59:55 - INFO - Logout Successful. Bye aditya
+13-11-2024 16:59:55 - INFO - Connection closed
+13-11-2024 17:00:48 - INFO - Engine created
+13-11-2024 17:00:51 - INFO - Session closed
+13-11-2024 17:00:51 - INFO - Exitting ......
+13-11-2024 17:00:51 - INFO - Connection closed
+13-11-2024 17:10:07 - INFO - Engine created
+13-11-2024 17:10:11 - INFO - Login Successful. Welcome aditya
+13-11-2024 17:10:18 - INFO - Session closed
+13-11-2024 17:10:18 - INFO - Exitting ......
+13-11-2024 17:10:18 - INFO - Logout Successful. Bye aditya
+13-11-2024 17:10:18 - INFO - Connection closed
+13-11-2024 17:11:02 - INFO - Engine created
+13-11-2024 17:11:07 - INFO - Login Successful. Welcome aditya
+13-11-2024 17:11:10 - ERROR - Redis get error: Type <class 'dict'> not deserializable
+13-11-2024 17:11:10 - ERROR - Traceback to line no. 74
+13-11-2024 17:11:10 - ERROR - Redis set error: wrong number of arguments for 'expire' command
+13-11-2024 17:11:10 - ERROR - Traceback to line no. 54
+13-11-2024 17:11:17 - INFO - Session closed
+13-11-2024 17:11:17 - INFO - Exitting ......
+13-11-2024 17:11:17 - INFO - Logout Successful. Bye aditya
+13-11-2024 17:11:17 - INFO - Connection closed
+13-11-2024 17:13:07 - INFO - Engine created
+13-11-2024 17:13:12 - INFO - Login Successful. Welcome aditya
+13-11-2024 17:13:14 - ERROR - Redis get error: Type <class 'dict'> not deserializable
+13-11-2024 17:13:14 - ERROR - Traceback to line no. 74
+13-11-2024 17:13:17 - INFO - Session closed
+13-11-2024 17:13:17 - INFO - Exitting ......
+13-11-2024 17:13:17 - INFO - Logout Successful. Bye aditya
+13-11-2024 17:13:17 - INFO - Connection closed
+13-11-2024 17:18:18 - INFO - Engine created
+13-11-2024 17:18:22 - INFO - Login Successful. Welcome aditya
+13-11-2024 17:18:25 - ERROR - No data found
+13-11-2024 17:18:35 - ERROR - Redis get error: too many values to unpack (expected 2)
+13-11-2024 17:18:35 - ERROR - Traceback to line no. 76
+13-11-2024 17:18:53 - INFO - Session closed
+13-11-2024 17:18:53 - INFO - Exitting ......
+13-11-2024 17:18:53 - INFO - Logout Successful. Bye aditya
+13-11-2024 17:18:53 - INFO - Connection closed
+13-11-2024 17:18:54 - INFO - Engine created
+13-11-2024 17:19:00 - INFO - Login Successful. Welcome aditya
+13-11-2024 17:19:04 - INFO - Session closed
+13-11-2024 17:19:04 - INFO - Exitting ......
+13-11-2024 17:19:04 - INFO - Logout Successful. Bye aditya
+13-11-2024 17:19:04 - INFO - Connection closed
+13-11-2024 17:30:26 - INFO - Engine created
+13-11-2024 17:30:30 - INFO - Login Successful. Welcome aditya
+13-11-2024 17:30:33 - ERROR - No data found in redis
+13-11-2024 17:30:37 - INFO - Data found cached in redis
+13-11-2024 17:30:40 - INFO - Data found cached in redis
+13-11-2024 17:30:42 - INFO - Data found cached in redis
+13-11-2024 17:30:44 - INFO - Session closed
+13-11-2024 17:30:44 - INFO - Exitting ......
+13-11-2024 17:30:44 - INFO - Logout Successful. Bye aditya
+13-11-2024 17:30:44 - INFO - Connection closed
+13-11-2024 17:31:35 - INFO - Engine created
+13-11-2024 17:31:38 - INFO - Login Successful. Welcome aditya
+13-11-2024 17:31:40 - INFO - Data found cached in redis
+13-11-2024 17:31:46 - INFO - Session closed
+13-11-2024 17:31:46 - INFO - Exitting ......
+13-11-2024 17:31:46 - INFO - Logout Successful. Bye aditya
+13-11-2024 17:31:46 - INFO - Connection closed
+13-11-2024 18:09:50 - INFO - Engine created
+13-11-2024 18:09:50 - INFO - Session closed
+13-11-2024 18:09:50 - ERROR - Oops Something went wrong! 'module' object is not callable
+13-11-2024 18:09:50 - ERROR - Traceback to line no. 19
+13-11-2024 18:09:50 - INFO - Connection closed
+13-11-2024 18:10:49 - INFO - Engine created
+13-11-2024 18:10:56 - INFO - Login Successful. Welcome aditya
+13-11-2024 18:10:59 - INFO - Logout Successful. Bye aditya
+13-11-2024 18:10:59 - INFO - Session closed
+13-11-2024 18:10:59 - INFO - Connection closed
+13-11-2024 18:20:00 - INFO - Engine created
+13-11-2024 18:20:05 - INFO - Login Successful. Welcome aditya
+13-11-2024 18:20:08 - ERROR - ====Cache miss====
+13-11-2024 18:20:08 - ERROR - Redis set error: wrong number of arguments for 'expire' command
+13-11-2024 18:20:08 - ERROR - Traceback to line no. 40
+13-11-2024 18:20:12 - INFO - Session closed
+13-11-2024 18:20:12 - INFO - Exitting ......
+13-11-2024 18:20:12 - INFO - Logout Successful. Bye aditya
+13-11-2024 18:20:12 - INFO - Connection closed
+13-11-2024 18:20:52 - INFO - Engine created
+13-11-2024 18:20:56 - INFO - Login Successful. Welcome aditya
+13-11-2024 18:21:00 - INFO - ====Cache hit====
+13-11-2024 18:21:03 - INFO - ====Cache hit====
+13-11-2024 18:21:05 - INFO - Session closed
+13-11-2024 18:21:05 - INFO - Exitting ......
+13-11-2024 18:21:05 - INFO - Logout Successful. Bye aditya
+13-11-2024 18:21:05 - INFO - Connection closed
+13-11-2024 18:21:38 - INFO - Engine created
+13-11-2024 18:21:39 - INFO - Session closed
+13-11-2024 18:21:39 - INFO - Exitting ......
+13-11-2024 18:21:39 - INFO - Connection closed
+13-11-2024 18:24:32 - INFO - Engine created
+13-11-2024 18:24:36 - INFO - Login Successful. Welcome aditya
+13-11-2024 18:24:38 - INFO - ====Cache hit====
+13-11-2024 18:24:40 - INFO - Session closed
+13-11-2024 18:24:40 - INFO - Exitting ......
+13-11-2024 18:24:40 - INFO - Logout Successful. Bye aditya
+13-11-2024 18:24:40 - INFO - Connection closed
+13-11-2024 18:33:57 - INFO - Engine created
+13-11-2024 18:34:22 - INFO - Login Successful. Welcome aditya
+13-11-2024 18:34:27 - ERROR - ====Cache miss====
+13-11-2024 18:34:37 - INFO - ====Cache hit====
+13-11-2024 18:34:40 - INFO - ====Cache hit====
+13-11-2024 18:34:42 - INFO - Session closed
+13-11-2024 18:34:42 - INFO - Exitting ......
+13-11-2024 18:34:42 - INFO - Logout Successful. Bye aditya
+13-11-2024 18:34:42 - INFO - Connection closed
