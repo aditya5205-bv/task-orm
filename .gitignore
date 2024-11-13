@@ -1,0 +1,6 @@
+# venv
+orm/
+
+.env
+
+**/__pycache__/*

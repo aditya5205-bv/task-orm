@@ -1,0 +1,617 @@
+28-10-2024 13:03:17 - INFO - Connection established
+28-10-2024 13:03:20 - INFO - Login successful. User exists.
+28-10-2024 13:03:20 - INFO - Connection closed
+28-10-2024 13:03:26 - INFO - Connection established
+28-10-2024 13:03:30 - ERROR - No Posts :(
+28-10-2024 13:03:30 - INFO - Connection closed
+28-10-2024 13:03:33 - INFO - Logout Successful
+28-10-2024 13:04:41 - INFO - Connection established
+28-10-2024 13:04:41 - INFO - Connection closed
+28-10-2024 13:04:48 - WARNING - No user is logged in
+28-10-2024 13:04:51 - INFO - Connection established
+28-10-2024 13:04:54 - WARNING - User is not logged in
+28-10-2024 13:04:54 - INFO - Connection closed
+28-10-2024 13:04:57 - WARNING - No user is logged in
+28-10-2024 13:08:39 - INFO - Connection established
+28-10-2024 13:08:41 - WARNING - No user is logged in
+28-10-2024 13:08:41 - INFO - Connection closed
+28-10-2024 13:22:03 - INFO - Connection established
+28-10-2024 13:22:07 - INFO - Login successful. Welcome aditya
+28-10-2024 13:22:07 - INFO - Connection closed
+28-10-2024 13:22:12 - INFO - Logout Successful. Bye None
+28-10-2024 13:22:12 - WARNING - No user is logged in
+28-10-2024 13:23:05 - INFO - Connection established
+28-10-2024 13:23:07 - INFO - Login successful. Welcome aditya
+28-10-2024 13:23:07 - INFO - Connection closed
+28-10-2024 13:23:12 - INFO - Logout Successful. Bye aditya
+28-10-2024 13:23:12 - WARNING - No user is logged in
+28-10-2024 13:25:03 - INFO - Connection established
+28-10-2024 13:25:05 - INFO - Login successful. Welcome aditya
+28-10-2024 13:25:05 - INFO - Connection closed
+28-10-2024 13:25:09 - INFO - Exitting ......
+28-10-2024 13:25:09 - INFO - Logout Successful. Bye aditya
+28-10-2024 13:25:39 - INFO - Connection established
+28-10-2024 13:25:42 - INFO - Login successful. Welcome aditya
+28-10-2024 13:25:42 - INFO - Connection closed
+28-10-2024 13:25:46 - INFO - Connection established
+28-10-2024 13:25:48 - INFO - Connection closed
+28-10-2024 13:25:52 - INFO - Exitting ......
+28-10-2024 13:25:52 - INFO - Logout Successful. Bye aditya
+28-10-2024 13:30:44 - INFO - Connection established
+28-10-2024 13:30:48 - INFO - Login successful. Welcome aditya
+28-10-2024 13:30:48 - INFO - Connection closed
+28-10-2024 13:30:51 - INFO - Connection established
+28-10-2024 13:30:55 - WARNING - No posts found by {title_match}
+28-10-2024 13:30:55 - INFO - Connection closed
+28-10-2024 13:30:58 - INFO - Exitting ......
+28-10-2024 13:30:58 - INFO - Logout Successful. Bye aditya
+30-10-2024 12:03:52 - ERROR - Error occurred: (MySQLdb.OperationalError) (1045, "Access denied for user '('root',)'@'localhost' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8) 
+
+30-10-2024 12:19:37 - ERROR - Error occurred: Column expression, FROM clause, or other columns clause element expected, got [<sqlalchemy.sql.elements.TextClause object at 0x7fc7935bdd30>]. Did you mean to say select(<sqlalchemy.sql.elements.TextClause object at 0x7fc7935bdd30>)? 
+
+30-10-2024 12:19:54 - ERROR - Error occurred: Column expression, FROM clause, or other columns clause element expected, got ['*']. Did you mean to say select('*')? 
+
+04-11-2024 15:42:50 - ERROR - Error occurred: tuple index out of range 
+
+04-11-2024 15:43:12 - ERROR - Error occurred: Could not locate column in row for column 'User_Data.username' 
+
+05-11-2024 11:51:20 - INFO - Connection established
+05-11-2024 11:51:25 - INFO - a signup successful
+05-11-2024 11:51:25 - INFO - Connection closed
+05-11-2024 11:51:29 - INFO - Exitting ......
+05-11-2024 11:51:29 - WARNING - No user is logged in
+05-11-2024 11:52:25 - INFO - Connection established
+05-11-2024 11:52:27 - ERROR - Invalid Email. Try again.
+05-11-2024 11:52:27 - INFO - Connection closed
+05-11-2024 11:52:58 - INFO - Connection established
+05-11-2024 11:53:01 - ERROR - Invalid Email. Try again.
+05-11-2024 11:53:01 - INFO - Connection closed
+05-11-2024 11:53:31 - INFO - Exitting ......
+05-11-2024 11:53:31 - WARNING - No user is logged in
+05-11-2024 11:53:36 - INFO - Connection established
+05-11-2024 11:53:38 - ERROR - Invalid input. Try again.
+05-11-2024 11:53:38 - INFO - Connection closed
+05-11-2024 11:54:19 - INFO - Connection established
+05-11-2024 11:54:28 - ERROR - Invalid input. Try again.
+05-11-2024 11:54:28 - INFO - Connection closed
+05-11-2024 11:54:31 - INFO - Exitting ......
+05-11-2024 11:54:31 - WARNING - No user is logged in
+05-11-2024 11:55:21 - INFO - Connection established
+05-11-2024 11:55:29 - INFO - Connection closed
+05-11-2024 11:55:37 - INFO - Connection established
+05-11-2024 11:55:44 - ERROR - Invalid input. Try again.
+05-11-2024 11:55:44 - INFO - Connection closed
+05-11-2024 11:55:49 - INFO - Connection established
+05-11-2024 11:55:52 - ERROR - Invalid input. Try again.
+05-11-2024 11:55:52 - INFO - Connection closed
+05-11-2024 11:55:54 - INFO - Exitting ......
+05-11-2024 11:55:54 - WARNING - No user is logged in
+07-11-2024 17:42:39 - INFO - Connection established
+07-11-2024 17:42:43 - INFO - Login successful. Welcome aditya
+07-11-2024 17:42:43 - INFO - Connection closed
+07-11-2024 17:42:45 - INFO - Exitting ......
+07-11-2024 17:42:45 - INFO - Logout Successful. Bye aditya
+07-11-2024 17:43:42 - INFO - Exitting ......
+07-11-2024 17:43:42 - WARNING - No user is logged in
+11-11-2024 10:22:15 - INFO - Connection established
+11-11-2024 10:22:17 - INFO - Login successful. Welcome aditya
+11-11-2024 10:22:17 - INFO - Connection closed
+11-11-2024 10:22:18 - INFO - Exitting ......
+11-11-2024 10:22:18 - INFO - Logout Successful. Bye aditya
+11-11-2024 11:34:53 - ERROR - Error while creating engine: No module named 'MySQLdb'
+11-11-2024 11:35:01 - INFO - Exitting ......
+11-11-2024 11:41:20 - ERROR - Error while creating engine: No module named 'MySQLdb'
+11-11-2024 11:41:22 - INFO - Session created
+11-11-2024 11:41:25 - INFO - Session is already initialized
+11-11-2024 11:41:25 - ERROR - Error while executing statement: Could not locate a bind configured on mapper Mapper[User_Data(user_data)], SQL expression or this Session.
+11-11-2024 11:41:25 - ERROR - Query execution failed
+11-11-2024 11:41:34 - INFO - Session created
+11-11-2024 11:41:36 - INFO - Session is already initialized
+11-11-2024 11:41:36 - ERROR - Error while executing statement: Could not locate a bind configured on mapper Mapper[User_Data(user_data)], SQL expression or this Session.
+11-11-2024 11:41:36 - ERROR - Query execution failed
+11-11-2024 11:41:48 - INFO - Exitting ......
+11-11-2024 11:43:10 - ERROR - Error while creating engine: No module named 'MySQLdb'
+11-11-2024 11:43:12 - ERROR - Error while creating session: 'NoneType' object is not callable
+11-11-2024 11:43:15 - INFO - Exitting ......
+11-11-2024 11:46:06 - ERROR - Error while creating engine: No module named 'MySQLdb'
+11-11-2024 11:46:09 - INFO - Exitting ......
+11-11-2024 11:46:27 - INFO - Engine created
+11-11-2024 11:46:30 - ERROR - Error while creating session: 'Engine' object is not callable
+11-11-2024 11:46:33 - INFO - Exitting ......
+11-11-2024 11:46:52 - INFO - Engine created
+11-11-2024 11:46:54 - INFO - Session created
+11-11-2024 11:46:57 - INFO - Session is already initialized
+11-11-2024 11:46:57 - INFO - Query executed successfully
+11-11-2024 11:47:04 - INFO - Exitting ......
+11-11-2024 11:47:23 - INFO - Engine created
+11-11-2024 11:47:25 - INFO - Session created
+11-11-2024 11:47:29 - INFO - Session is already initialized
+11-11-2024 11:47:29 - INFO - Query executed successfully
+11-11-2024 11:47:30 - INFO - Exitting ......
+11-11-2024 12:05:24 - INFO - Engine created
+11-11-2024 12:05:27 - INFO - Session created
+11-11-2024 12:05:29 - INFO - Session is already initialized
+11-11-2024 12:05:29 - INFO - Query executed successfully
+11-11-2024 12:05:29 - ERROR - Login Error: not enough values to unpack (expected 2, got 0)
+11-11-2024 12:05:40 - INFO - Exitting ......
+11-11-2024 12:10:24 - INFO - Engine created
+11-11-2024 12:10:25 - INFO - Session created
+11-11-2024 12:10:28 - INFO - Session is already initialized
+11-11-2024 12:10:28 - INFO - Query executed successfully
+11-11-2024 12:10:44 - INFO - Session created
+11-11-2024 12:10:46 - INFO - Exitting ......
+11-11-2024 12:10:46 - WARNING - No user is logged in
+11-11-2024 12:10:46 - INFO - Connection closed
+11-11-2024 12:10:47 - INFO - Engine created
+11-11-2024 12:10:48 - INFO - Session created
+11-11-2024 12:10:49 - WARNING - Invalid username or password
+11-11-2024 12:10:53 - INFO - Session created
+11-11-2024 12:10:54 - INFO - Session is already initialized
+11-11-2024 12:10:54 - INFO - Query executed successfully
+11-11-2024 12:12:01 - INFO - Exitting ......
+11-11-2024 12:12:01 - WARNING - No user is logged in
+11-11-2024 12:12:01 - INFO - Connection closed
+11-11-2024 12:12:02 - INFO - Engine created
+11-11-2024 12:12:04 - INFO - Session created
+11-11-2024 12:12:06 - INFO - Session is already initialized
+11-11-2024 12:12:06 - INFO - Query executed successfully
+11-11-2024 12:12:15 - INFO - Exitting ......
+11-11-2024 12:12:15 - WARNING - No user is logged in
+11-11-2024 12:12:15 - INFO - Connection closed
+11-11-2024 12:13:41 - INFO - Engine created
+11-11-2024 12:13:43 - INFO - Session created
+11-11-2024 12:13:44 - INFO - Session is already initialized
+11-11-2024 12:13:44 - INFO - Query executed successfully
+11-11-2024 12:14:53 - INFO - Exitting ......
+11-11-2024 12:14:53 - WARNING - No user is logged in
+11-11-2024 12:14:53 - INFO - Connection closed
+11-11-2024 12:14:54 - INFO - Engine created
+11-11-2024 12:14:55 - INFO - Session created
+11-11-2024 12:14:57 - INFO - Session is already initialized
+11-11-2024 12:14:57 - ERROR - Login Error: Query execution failed
+11-11-2024 12:17:18 - INFO - Exitting ......
+11-11-2024 12:17:18 - WARNING - No user is logged in
+11-11-2024 12:17:18 - INFO - Connection closed
+11-11-2024 12:17:19 - INFO - Engine created
+11-11-2024 12:17:21 - INFO - Session created
+11-11-2024 12:17:22 - INFO - Session is already initialized
+11-11-2024 12:17:22 - ERROR - Login Error: Query execution failed
+11-11-2024 12:17:26 - INFO - Exitting ......
+11-11-2024 12:17:26 - WARNING - No user is logged in
+11-11-2024 12:17:26 - INFO - Connection closed
+11-11-2024 12:17:55 - INFO - Engine created
+11-11-2024 12:17:58 - INFO - Session created
+11-11-2024 12:17:59 - INFO - Session is already initialized
+11-11-2024 12:17:59 - ERROR - Login Error: Query execution failed
+11-11-2024 12:18:13 - INFO - Session created
+11-11-2024 12:18:14 - INFO - Exitting ......
+11-11-2024 12:18:14 - WARNING - No user is logged in
+11-11-2024 12:18:14 - INFO - Connection closed
+11-11-2024 12:18:14 - INFO - Engine created
+11-11-2024 12:18:15 - INFO - Session created
+11-11-2024 12:18:16 - INFO - Session is already initialized
+11-11-2024 12:18:16 - INFO - Query executed successfully
+11-11-2024 12:18:16 - ERROR - Login Error: No user found
+11-11-2024 12:18:30 - INFO - Exitting ......
+11-11-2024 12:18:30 - WARNING - No user is logged in
+11-11-2024 12:18:30 - INFO - Connection closed
+11-11-2024 12:20:53 - INFO - Engine created
+11-11-2024 12:20:55 - INFO - Session created
+11-11-2024 12:20:58 - INFO - Session is already initialized
+11-11-2024 12:20:58 - INFO - Query executed successfully
+11-11-2024 12:20:58 - ERROR - Login Error: No user found
+11-11-2024 12:21:12 - INFO - Session created
+11-11-2024 12:21:15 - INFO - Session is already initialized
+11-11-2024 12:21:15 - INFO - Query executed successfully
+11-11-2024 12:21:15 - ERROR - Login Error: not enough values to unpack (expected 2, got 0)
+11-11-2024 12:21:46 - INFO - Exitting ......
+11-11-2024 12:21:46 - INFO - Logout Successful. Bye None
+11-11-2024 12:21:46 - INFO - Connection closed
+11-11-2024 12:21:47 - INFO - Engine created
+11-11-2024 12:21:51 - INFO - Exitting ......
+11-11-2024 12:21:51 - WARNING - No user is logged in
+11-11-2024 12:21:51 - INFO - Connection closed
+11-11-2024 12:22:38 - INFO - Engine created
+11-11-2024 12:22:40 - INFO - Session created
+11-11-2024 12:22:42 - INFO - Session is already initialized
+11-11-2024 12:22:42 - INFO - Query executed successfully
+11-11-2024 12:22:42 - ERROR - Login Error: not enough values to unpack (expected 2, got 0)
+11-11-2024 12:22:45 - INFO - Exitting ......
+11-11-2024 12:22:45 - INFO - Logout Successful. Bye None
+11-11-2024 12:22:45 - INFO - Connection closed
+11-11-2024 12:23:04 - INFO - Engine created
+11-11-2024 12:23:05 - INFO - Session created
+11-11-2024 12:23:08 - INFO - Session is already initialized
+11-11-2024 12:23:08 - INFO - Query executed successfully
+11-11-2024 12:23:08 - ERROR - Login Error: not enough values to unpack (expected 2, got 0)
+11-11-2024 12:23:37 - INFO - Session created
+11-11-2024 12:23:38 - INFO - Exitting ......
+11-11-2024 12:23:38 - INFO - Logout Successful. Bye None
+11-11-2024 12:23:38 - INFO - Connection closed
+11-11-2024 12:23:39 - INFO - Engine created
+11-11-2024 12:23:40 - INFO - Session created
+11-11-2024 12:23:43 - INFO - Session is already initialized
+11-11-2024 12:23:43 - INFO - Query executed successfully
+11-11-2024 12:23:43 - ERROR - Login Error: not enough values to unpack (expected 2, got 0)
+11-11-2024 12:23:45 - INFO - Exitting ......
+11-11-2024 12:23:45 - INFO - Logout Successful. Bye None
+11-11-2024 12:23:45 - INFO - Connection closed
+11-11-2024 12:23:58 - INFO - Engine created
+11-11-2024 12:23:59 - INFO - Session created
+11-11-2024 12:24:01 - INFO - Session is already initialized
+11-11-2024 12:24:01 - INFO - Query executed successfully
+11-11-2024 12:24:01 - ERROR - Login Error: not enough values to unpack (expected 2, got 0)
+11-11-2024 12:24:03 - INFO - Exitting ......
+11-11-2024 12:24:03 - INFO - Logout Successful. Bye None
+11-11-2024 12:24:03 - INFO - Connection closed
+11-11-2024 12:25:18 - INFO - Engine created
+11-11-2024 12:25:21 - INFO - Session created
+11-11-2024 12:25:24 - INFO - Session is already initialized
+11-11-2024 12:25:24 - INFO - Query executed successfully
+11-11-2024 12:25:24 - ERROR - Login Error: cannot unpack non-iterable NoneType object
+11-11-2024 12:25:28 - INFO - Exitting ......
+11-11-2024 12:25:28 - INFO - Logout Successful. Bye None
+11-11-2024 12:25:28 - INFO - Connection closed
+11-11-2024 12:28:55 - INFO - Engine created
+11-11-2024 12:28:57 - INFO - Session created
+11-11-2024 12:28:59 - INFO - Session is already initialized
+11-11-2024 12:28:59 - INFO - Query executed successfully
+11-11-2024 12:28:59 - ERROR - Login Error: No user found
+11-11-2024 12:29:37 - INFO - Exitting ......
+11-11-2024 12:29:37 - WARNING - No user is logged in
+11-11-2024 12:29:37 - INFO - Connection closed
+11-11-2024 12:29:41 - INFO - Engine created
+11-11-2024 12:29:42 - INFO - Session created
+11-11-2024 12:29:44 - INFO - Session is already initialized
+11-11-2024 12:29:44 - INFO - Query executed successfully
+11-11-2024 12:29:44 - ERROR - Login Error: No user found
+11-11-2024 12:29:46 - INFO - Exitting ......
+11-11-2024 12:29:46 - WARNING - No user is logged in
+11-11-2024 12:29:46 - INFO - Connection closed
+11-11-2024 12:30:39 - INFO - Engine created
+11-11-2024 12:30:41 - INFO - Session created
+11-11-2024 12:30:43 - INFO - Session is already initialized
+11-11-2024 12:30:43 - ERROR - Login Error: 'list' object has no attribute 'all'
+11-11-2024 12:30:48 - ERROR - Oops Something went wrong! 
+11-11-2024 12:30:48 - WARNING - No user is logged in
+11-11-2024 12:30:48 - INFO - Connection closed
+11-11-2024 12:30:58 - INFO - Engine created
+11-11-2024 12:30:59 - INFO - Session created
+11-11-2024 12:31:01 - INFO - Session is already initialized
+11-11-2024 12:31:01 - INFO - Query executed successfully
+11-11-2024 12:31:01 - ERROR - Login Error: 'list' object has no attribute 'all'
+11-11-2024 12:31:03 - INFO - Exitting ......
+11-11-2024 12:31:03 - WARNING - No user is logged in
+11-11-2024 12:31:03 - INFO - Connection closed
+11-11-2024 12:31:21 - INFO - Engine created
+11-11-2024 12:31:23 - INFO - Session created
+11-11-2024 12:31:25 - INFO - Session is already initialized
+11-11-2024 12:31:25 - INFO - Query executed successfully
+11-11-2024 12:31:25 - INFO - Login Successful. Welcome aditya
+11-11-2024 12:31:31 - INFO - Logout Successful. Bye aditya
+11-11-2024 12:31:31 - WARNING - No user is logged in
+11-11-2024 12:31:31 - INFO - Connection closed
+11-11-2024 12:32:13 - INFO - Engine created
+11-11-2024 12:32:15 - INFO - Session created
+11-11-2024 12:32:16 - INFO - Session is already initialized
+11-11-2024 12:32:16 - INFO - Query executed successfully
+11-11-2024 12:32:16 - ERROR - Login Error: No user found
+11-11-2024 12:32:22 - WARNING - No user is logged in
+11-11-2024 12:32:22 - INFO - Connection closed
+11-11-2024 12:46:15 - INFO - Engine created
+11-11-2024 12:46:17 - INFO - Session created
+11-11-2024 12:46:25 - ERROR - Invalid email
+11-11-2024 12:46:30 - INFO - Session created
+11-11-2024 12:46:37 - INFO - Session is already initialized
+11-11-2024 12:46:37 - ERROR - Error while executing statement: This result object does not return rows. It has been closed automatically.
+11-11-2024 12:46:37 - ERROR - Sign up Failed
+11-11-2024 12:49:37 - INFO - Exitting ......
+11-11-2024 12:49:37 - INFO - Connection closed
+11-11-2024 12:50:27 - INFO - Engine created
+11-11-2024 12:50:31 - INFO - Session created
+11-11-2024 12:50:38 - INFO - Session is already initialized
+11-11-2024 12:50:38 - ERROR - Login Error: This username or email already exists
+11-11-2024 12:50:42 - INFO - Exitting ......
+11-11-2024 12:50:42 - INFO - Connection closed
+11-11-2024 12:51:12 - INFO - Engine created
+11-11-2024 12:51:14 - INFO - Session created
+11-11-2024 12:51:20 - INFO - Session is already initialized
+11-11-2024 12:51:20 - INFO - new signup successful
+11-11-2024 12:51:24 - INFO - Exitting ......
+11-11-2024 12:51:24 - INFO - Connection closed
+11-11-2024 12:52:22 - INFO - Engine created
+11-11-2024 12:52:25 - INFO - Session created
+11-11-2024 12:52:28 - INFO - Session is already initialized
+11-11-2024 12:52:28 - INFO - Query executed successfully
+11-11-2024 12:52:28 - INFO - Login Successful. Welcome new
+11-11-2024 12:52:32 - INFO - Exitting ......
+11-11-2024 12:52:32 - INFO - Logout Successful. Bye new
+11-11-2024 12:52:32 - INFO - Connection closed
+11-11-2024 12:54:37 - INFO - Engine created
+11-11-2024 12:54:39 - INFO - Session created
+11-11-2024 12:54:42 - INFO - Session is already initialized
+11-11-2024 12:54:42 - INFO - Query executed successfully
+11-11-2024 12:54:42 - ERROR - Login Error: Wrong username or password
+11-11-2024 12:54:46 - INFO - Exitting ......
+11-11-2024 12:54:46 - INFO - Logout Successful. Bye new
+11-11-2024 12:54:46 - INFO - Connection closed
+11-11-2024 12:55:06 - INFO - Engine created
+11-11-2024 12:55:09 - INFO - Session created
+11-11-2024 12:55:12 - INFO - Session is already initialized
+11-11-2024 12:55:12 - INFO - Query executed successfully
+11-11-2024 12:55:12 - ERROR - Login Error: Wrong username or password
+11-11-2024 12:55:15 - INFO - Session created
+11-11-2024 12:55:18 - INFO - Session is already initialized
+11-11-2024 12:55:18 - INFO - Query executed successfully
+11-11-2024 12:55:18 - INFO - Login Successful. Welcome new
+11-11-2024 12:55:19 - INFO - Exitting ......
+11-11-2024 12:55:19 - INFO - Logout Successful. Bye new
+11-11-2024 12:55:19 - INFO - Connection closed
+12-11-2024 12:18:26 - INFO - Engine created
+12-11-2024 12:18:31 - INFO - Session created
+12-11-2024 12:18:33 - INFO - Session is already initialized
+12-11-2024 12:18:33 - INFO - Query executed successfully
+12-11-2024 12:18:33 - INFO - Login Successful. Welcome aditya
+12-11-2024 12:18:42 - INFO - Logout Successful. Bye aditya
+12-11-2024 12:18:42 - INFO - Connection closed
+12-11-2024 16:57:45 - INFO - Engine created
+12-11-2024 16:57:48 - INFO - Session created
+12-11-2024 16:57:49 - INFO - Exitting ......
+12-11-2024 16:57:49 - INFO - Connection closed
+12-11-2024 16:58:06 - INFO - Engine created
+12-11-2024 16:58:11 - INFO - Session created
+12-11-2024 16:58:14 - INFO - Session is already initialized
+12-11-2024 16:58:14 - INFO - Query executed successfully
+12-11-2024 16:58:14 - INFO - Login Successful. Welcome aditya
+12-11-2024 16:58:16 - INFO - Exitting ......
+12-11-2024 16:58:16 - INFO - Logout Successful. Bye aditya
+12-11-2024 16:58:16 - INFO - Connection closed
+12-11-2024 17:05:07 - INFO - Engine created
+12-11-2024 17:05:08 - INFO - Exitting ......
+12-11-2024 17:05:08 - INFO - Connection closed
+12-11-2024 17:05:20 - INFO - Engine created
+12-11-2024 17:05:25 - INFO - Session created
+12-11-2024 17:05:26 - INFO - Exitting ......
+12-11-2024 17:05:26 - INFO - Connection closed
+12-11-2024 17:06:03 - INFO - Engine created
+12-11-2024 17:06:06 - INFO - Session created
+12-11-2024 17:06:08 - INFO - Session is already initialized
+12-11-2024 17:06:08 - INFO - Query executed successfully
+12-11-2024 17:06:08 - ERROR - Login Error: Wrong username or password
+12-11-2024 17:06:08 - ERROR - Traceback to line no. 56
+12-11-2024 17:06:12 - INFO - Session created
+12-11-2024 17:06:16 - INFO - Session is already initialized
+12-11-2024 17:06:16 - INFO - Query executed successfully
+12-11-2024 17:06:16 - ERROR - Login Error: Wrong username or password
+12-11-2024 17:06:16 - ERROR - Traceback to line no. 56
+12-11-2024 17:06:22 - INFO - Session created
+12-11-2024 17:06:25 - INFO - Session is already initialized
+12-11-2024 17:06:25 - INFO - Query executed successfully
+12-11-2024 17:06:25 - INFO - Login Successful. Welcome aditya
+12-11-2024 17:06:29 - INFO - Logout Successful. Bye aditya
+12-11-2024 17:06:29 - INFO - Connection closed
+12-11-2024 17:06:51 - INFO - Engine created
+12-11-2024 17:06:52 - INFO - Exitting ......
+12-11-2024 17:06:52 - INFO - Connection closed
+12-11-2024 17:07:17 - INFO - Engine created
+12-11-2024 17:07:18 - INFO - Exitting ......
+12-11-2024 17:07:18 - INFO - Connection closed
+12-11-2024 17:10:33 - INFO - Engine created
+12-11-2024 17:10:38 - INFO - Session created
+12-11-2024 17:10:39 - INFO - Exitting ......
+12-11-2024 17:10:39 - INFO - Connection closed
+12-11-2024 17:12:19 - INFO - Engine created
+12-11-2024 17:12:21 - INFO - Session created
+12-11-2024 17:12:22 - INFO - Exitting ......
+12-11-2024 17:12:22 - INFO - Connection closed
+12-11-2024 17:18:46 - INFO - Engine created
+12-11-2024 17:18:53 - INFO - Exitting ......
+12-11-2024 17:18:53 - INFO - Connection closed
+13-11-2024 10:58:32 - INFO - Engine created
+13-11-2024 10:58:32 - ERROR - Oops Something went wrong! 'generator' object does not support the context manager protocol
+13-11-2024 10:58:32 - ERROR - Traceback to line no. 14
+13-11-2024 10:59:25 - INFO - Engine created
+13-11-2024 10:59:25 - ERROR - Oops Something went wrong! 'generator' object does not support the context manager protocol
+13-11-2024 10:59:25 - ERROR - Traceback to line no. 14
+13-11-2024 10:59:25 - INFO - Connection closed
+13-11-2024 11:00:10 - INFO - Engine created
+13-11-2024 11:00:15 - ERROR - Login Error: 'generator' object has no attribute 'execute'
+13-11-2024 11:00:15 - ERROR - Traceback to line no. 33
+13-11-2024 11:00:17 - INFO - Exitting ......
+13-11-2024 11:00:17 - INFO - Connection closed
+13-11-2024 11:03:42 - INFO - Engine created
+13-11-2024 11:03:47 - ERROR - Login Error: 'generator' object has no attribute 'execute'
+13-11-2024 11:03:47 - ERROR - Traceback to line no. 33
+13-11-2024 11:03:49 - INFO - Exitting ......
+13-11-2024 11:03:49 - INFO - Connection closed
+13-11-2024 11:04:41 - INFO - Engine created
+13-11-2024 11:04:41 - INFO - Connection closed
+13-11-2024 11:04:52 - INFO - Engine created
+13-11-2024 11:04:52 - INFO - Connection closed
+13-11-2024 11:05:56 - INFO - Engine created
+13-11-2024 11:05:59 - ERROR - Login Error: '_GeneratorContextManager' object has no attribute 'execute'
+13-11-2024 11:05:59 - ERROR - Traceback to line no. 33
+13-11-2024 11:06:04 - INFO - Exitting ......
+13-11-2024 11:06:04 - INFO - Connection closed
+13-11-2024 11:06:33 - INFO - Engine created
+13-11-2024 11:06:33 - INFO - Connection closed
+13-11-2024 11:06:43 - INFO - Engine created
+13-11-2024 11:06:46 - INFO - Query executed successfully
+13-11-2024 11:06:46 - ERROR - Login Error: 'ChunkedIteratorResult' object is not subscriptable
+13-11-2024 11:06:46 - ERROR - Traceback to line no. 39
+13-11-2024 11:07:07 - INFO - Exitting ......
+13-11-2024 11:07:07 - INFO - Connection closed
+13-11-2024 11:07:39 - INFO - Engine created
+13-11-2024 11:07:42 - INFO - Query executed successfully
+13-11-2024 11:07:55 - INFO - Exitting ......
+13-11-2024 11:07:55 - INFO - Connection closed
+13-11-2024 11:07:55 - INFO - Engine created
+13-11-2024 11:08:05 - INFO - Query executed successfully
+13-11-2024 11:08:26 - INFO - Exitting ......
+13-11-2024 11:08:26 - INFO - Connection closed
+13-11-2024 11:08:26 - INFO - Engine created
+13-11-2024 11:08:29 - INFO - Query executed successfully
+13-11-2024 11:08:29 - INFO - Login Successful. Welcome aditya
+13-11-2024 11:08:33 - INFO - Exitting ......
+13-11-2024 11:08:33 - INFO - Connection closed
+13-11-2024 11:10:44 - INFO - Engine created
+13-11-2024 11:10:44 - ERROR - Oops Something went wrong! 'generator' object is not callable
+13-11-2024 11:10:44 - ERROR - Traceback to line no. 17
+13-11-2024 11:10:44 - INFO - Connection closed
+13-11-2024 11:11:08 - INFO - Engine created
+13-11-2024 11:11:11 - INFO - Query executed successfully
+13-11-2024 11:11:11 - INFO - Login Successful. Welcome aditya
+13-11-2024 11:11:15 - INFO - Exitting ......
+13-11-2024 11:11:15 - INFO - Connection closed
+13-11-2024 11:13:05 - INFO - Engine created
+13-11-2024 11:13:05 - ERROR - Oops Something went wrong! 'generator' object does not support the context manager protocol
+13-11-2024 11:13:05 - ERROR - Traceback to line no. 17
+13-11-2024 11:13:05 - INFO - Connection closed
+13-11-2024 11:15:13 - INFO - Engine created
+13-11-2024 11:15:18 - INFO - Query executed successfully
+13-11-2024 11:15:18 - INFO - Login Successful. Welcome aditya
+13-11-2024 11:15:20 - INFO - Exitting ......
+13-11-2024 11:15:20 - INFO - Connection closed
+13-11-2024 11:15:56 - INFO - Engine created
+13-11-2024 11:16:01 - INFO - Query executed successfully
+13-11-2024 11:16:01 - ERROR - Wrong username or password
+13-11-2024 11:16:05 - INFO - Exitting ......
+13-11-2024 11:16:05 - INFO - Connection closed
+13-11-2024 11:52:45 - INFO - Engine created
+13-11-2024 11:52:57 - ERROR - Login Error: not enough values to unpack (expected 1, got 0)
+13-11-2024 11:52:57 - ERROR - Traceback to line no. 91
+13-11-2024 11:53:33 - INFO - session closed
+13-11-2024 11:53:33 - INFO - Exitting ......
+13-11-2024 11:53:33 - INFO - Connection closed
+13-11-2024 11:53:34 - INFO - Engine created
+13-11-2024 11:53:44 - ERROR - This username or email already exists
+13-11-2024 11:54:11 - ERROR - This username or email already exists
+13-11-2024 11:54:57 - ERROR - This username or email already exists
+13-11-2024 11:55:07 - INFO - session closed
+13-11-2024 11:55:07 - INFO - Exitting ......
+13-11-2024 11:55:07 - INFO - Connection closed
+13-11-2024 11:55:08 - INFO - Engine created
+13-11-2024 11:55:19 - ERROR - This username or email already exists
+13-11-2024 11:55:30 - INFO - session closed
+13-11-2024 11:55:30 - INFO - Exitting ......
+13-11-2024 11:55:30 - INFO - Connection closed
+13-11-2024 11:55:30 - INFO - Engine created
+13-11-2024 11:55:42 - ERROR - This username or email already exists
+13-11-2024 11:56:11 - ERROR - This username or email already exists
+13-11-2024 11:56:23 - INFO - session closed
+13-11-2024 11:56:23 - INFO - Exitting ......
+13-11-2024 11:56:23 - INFO - Connection closed
+13-11-2024 11:56:32 - INFO - Engine created
+13-11-2024 11:56:41 - ERROR - This username or email already exists
+13-11-2024 11:57:35 - INFO - session closed
+13-11-2024 11:57:35 - INFO - Exitting ......
+13-11-2024 11:57:35 - INFO - Connection closed
+13-11-2024 11:57:36 - INFO - Engine created
+13-11-2024 11:57:43 - ERROR - This username or email already exists
+13-11-2024 11:57:49 - INFO - session closed
+13-11-2024 11:57:49 - INFO - Exitting ......
+13-11-2024 11:57:49 - INFO - Connection closed
+13-11-2024 11:58:07 - INFO - Engine created
+13-11-2024 11:58:20 - ERROR - This username or email already exists
+13-11-2024 11:58:24 - INFO - session closed
+13-11-2024 11:58:24 - INFO - Exitting ......
+13-11-2024 11:58:24 - INFO - Connection closed
+13-11-2024 11:59:48 - INFO - Engine created
+13-11-2024 11:59:51 - ERROR - Invalid email
+13-11-2024 12:00:01 - INFO - Query executed successfully
+13-11-2024 12:00:01 - INFO - Login Successful. Welcome aditya
+13-11-2024 12:00:07 - INFO - session closed
+13-11-2024 12:00:07 - INFO - Exitting ......
+13-11-2024 12:00:07 - INFO - Connection closed
+13-11-2024 12:02:12 - INFO - Engine created
+13-11-2024 12:02:20 - ERROR - This username or email already exists
+13-11-2024 12:02:37 - ERROR - This username or email already exists
+13-11-2024 12:03:50 - INFO - session closed
+13-11-2024 12:03:50 - INFO - Exitting ......
+13-11-2024 12:03:50 - INFO - Connection closed
+13-11-2024 12:03:50 - INFO - Engine created
+13-11-2024 12:03:57 - ERROR - This username or email already exists
+13-11-2024 12:04:02 - INFO - session closed
+13-11-2024 12:04:02 - INFO - Exitting ......
+13-11-2024 12:04:02 - INFO - Connection closed
+13-11-2024 12:04:13 - INFO - Engine created
+13-11-2024 12:04:22 - ERROR - This username or email already exists
+13-11-2024 12:05:14 - INFO - session closed
+13-11-2024 12:05:14 - INFO - Exitting ......
+13-11-2024 12:05:14 - INFO - Connection closed
+13-11-2024 12:06:04 - INFO - Engine created
+13-11-2024 12:06:11 - ERROR - This username or email already exists
+13-11-2024 12:07:25 - INFO - session closed
+13-11-2024 12:07:25 - INFO - Exitting ......
+13-11-2024 12:07:25 - INFO - Connection closed
+13-11-2024 12:07:26 - INFO - Engine created
+13-11-2024 12:07:35 - INFO - session closed
+13-11-2024 12:07:35 - INFO - Exitting ......
+13-11-2024 12:07:35 - INFO - Connection closed
+13-11-2024 12:07:42 - INFO - Engine created
+13-11-2024 12:07:53 - ERROR - Invalid email
+13-11-2024 12:08:30 - INFO - session closed
+13-11-2024 12:08:30 - INFO - Exitting ......
+13-11-2024 12:08:30 - INFO - Connection closed
+13-11-2024 12:08:31 - INFO - Engine created
+13-11-2024 12:08:36 - INFO - Query executed successfully
+13-11-2024 12:08:36 - ERROR - Wrong username or password
+13-11-2024 12:08:39 - INFO - session closed
+13-11-2024 12:08:39 - INFO - Exitting ......
+13-11-2024 12:08:39 - INFO - Connection closed
+13-11-2024 12:16:53 - INFO - Engine created
+13-11-2024 12:17:13 - INFO - session closed
+13-11-2024 12:17:13 - INFO - Exitting ......
+13-11-2024 12:17:13 - INFO - Connection closed
+13-11-2024 12:17:13 - INFO - Engine created
+13-11-2024 12:17:38 - INFO - session closed
+13-11-2024 12:17:38 - INFO - Exitting ......
+13-11-2024 12:17:38 - INFO - Connection closed
+13-11-2024 12:18:07 - INFO - Engine created
+13-11-2024 12:18:20 - ERROR - This username or email already exists
+13-11-2024 12:18:47 - INFO - session closed
+13-11-2024 12:18:47 - INFO - Exitting ......
+13-11-2024 12:18:47 - INFO - Connection closed
+13-11-2024 12:18:48 - INFO - Engine created
+13-11-2024 12:18:54 - INFO - Query executed successfully
+13-11-2024 12:18:54 - INFO - Login Successful. Welcome aditya
+13-11-2024 12:19:00 - INFO - Logout Successful. Bye aditya
+13-11-2024 12:19:00 - INFO - session closed
+13-11-2024 12:19:00 - INFO - Connection closed
+13-11-2024 12:19:02 - INFO - Engine created
+13-11-2024 12:19:10 - ERROR - This username or email already exists
+13-11-2024 12:19:26 - INFO - abc signup successful
+13-11-2024 12:19:31 - INFO - session closed
+13-11-2024 12:19:31 - INFO - Exitting ......
+13-11-2024 12:19:31 - INFO - Connection closed
+13-11-2024 12:29:50 - INFO - Engine created
+13-11-2024 12:29:55 - INFO - session closed
+13-11-2024 12:29:55 - INFO - Exitting ......
+13-11-2024 12:29:55 - INFO - Connection closed
+13-11-2024 12:29:56 - INFO - Engine created
+13-11-2024 12:30:26 - INFO - Query executed successfully
+13-11-2024 12:30:26 - INFO - Login Successful. Welcome abc
+13-11-2024 12:30:33 - INFO - session closed
+13-11-2024 12:30:33 - INFO - Exitting ......
+13-11-2024 12:30:33 - INFO - Connection closed
+13-11-2024 12:31:34 - INFO - Engine created
+13-11-2024 12:31:35 - ERROR - Invalid task wow
+13-11-2024 12:31:36 - INFO - session closed
+13-11-2024 12:31:36 - INFO - Exitting ......
+13-11-2024 12:31:36 - INFO - Connection closed
+13-11-2024 13:22:40 - INFO - Engine created
+13-11-2024 13:22:43 - INFO - Login Successful. Welcome aditya
+13-11-2024 13:23:00 - INFO - Logout Successful. Bye aditya
+13-11-2024 13:23:00 - INFO - Session closed
+13-11-2024 13:23:00 - INFO - Connection closed
+13-11-2024 13:23:02 - INFO - Engine created
+13-11-2024 13:23:14 - ERROR - This username or email already exists
+13-11-2024 13:23:16 - INFO - Session closed
+13-11-2024 13:23:16 - INFO - Exitting ......
+13-11-2024 13:23:16 - INFO - Connection closed
+13-11-2024 13:27:52 - INFO - Engine created
+13-11-2024 13:27:53 - ERROR - Invalid task: wow
+13-11-2024 13:27:55 - INFO - Session closed
+13-11-2024 13:27:55 - INFO - Exitting ......
+13-11-2024 13:27:55 - INFO - Connection closed
