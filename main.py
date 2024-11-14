@@ -1,10 +1,10 @@
 import time
-from model.user.User import User
+from controller.user.User import User
 from logs.custom_logging import custom_logging
-from settings import DB_CONFIG
+from settings import DB_CONFIG, REDIS_CONN
 from connection.Connection import Connection
-from controller.task_controller.TaskController import TaskController
-
+from connection.RedisConnection import RedisConnection
+import re
 
 if __name__ == "__main__":
 
@@ -14,10 +14,12 @@ if __name__ == "__main__":
     
         with conn.get_session() as session:
             
-            user = User(session)
+            user = User()
+            redis_conn = RedisConnection(REDIS_CONN)
+            redis_conn.initialize()
             
-            controller = TaskController(user)
-        
+            user.initialize_db(session)
+            
             while True:
 
                 prompt = "- My data \n- Logout" if user.is_user == True else "- Login \n- Signup"
@@ -32,7 +34,7 @@ if __name__ == "__main__":
                     break
                 
                 elif todo_input == 'logout':
-                    controller.logout()
+                    user.user_logout()
                     break   
 
                 elif todo_input == 'login':
@@ -40,7 +42,7 @@ if __name__ == "__main__":
                     password = input('Password: ')
                     
                     if username and password:
-                        controller.login(username,password)
+                        user.user_login(username,password)
                     else:
                         custom_logging.warning("Invalid username or password")
                         
@@ -49,13 +51,25 @@ if __name__ == "__main__":
                     email = input('Email: ')
                     password = input('Password: ')
                     
+                    email_pattern = re.compile(r"[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)"
+                                r"*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]"
+                                r"*[a-z0-9])?")
+                    email_verification = re.match(email_pattern, email)
+                                
                     if username and password and email:
-                        controller.signup(username, email, password) 
+                        if email_verification:
+                            user.user_signup(username, email, password)
+                        else: 
+                            custom_logging.error("Invalid email")
                     else:
                         custom_logging.error("Invalid input. Try again.")
                         
                 elif todo_input == 'mydata':
-                    controller.get_data()
+                    
+                    redis = redis_conn.get_redis()
+                    user.initialize_redis(redis)
+                    
+                    user.get_user_data()
                 
                 else:
                     custom_logging.error(f"Invalid task: {todo_input}")
@@ -72,5 +86,5 @@ if __name__ == "__main__":
         # print(e.__traceback__.tb_lineno)
         
     finally:
-        if user.is_user: controller.logout()
+        if user.is_user: user.user_logout()
         conn.disconnect()

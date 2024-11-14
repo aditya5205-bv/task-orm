@@ -2,19 +2,25 @@ import sys_path
 from sqlalchemy import literal_column, select, insert, and_, or_
 from sqlalchemy.orm import Session
 from logs.custom_logging import custom_logging
-from model.tables.UserData import UserData
-from settings import REDIS_CONN
+from model.UserData import UserData
+from redis import Redis
 from model.redis_cache.RedisCache import RedisCache
 
-class User():
+class User:
     
-    def __init__(self, session: Session):
-        self._session = session
+    def __init__(self):
+        self._session = None
         self._user_id = None
         self._username = None
         self.is_user = False
-        
+        self._redis_conn = None
         # super().__init__(db_config)
+        
+    def initialize_db(self, session: Session):
+        self._session = session
+        
+    def initialize_redis(self, redis_conn: Redis):
+        self._redis_conn = redis_conn
         
     def user_login(self, username, password):
         
@@ -26,7 +32,7 @@ class User():
             stmt = select(UserData.user_id, UserData.user_password).where(and_(UserData.username == username 
                     ,UserData.user_password == password))
             
-            if not self._session:
+            if self._session is None:
                 custom_logging.info("Session is not initialized")
                 return False
                 
@@ -48,7 +54,6 @@ class User():
             else:
                 custom_logging.error("Wrong username or password")
                 return False
-            
         
         except Exception as e:
             custom_logging.error(f"Login Error: {e}")
@@ -79,11 +84,11 @@ class User():
             stmt = select(literal_column('1')).where(or_(UserData.username == username, \
                 UserData.user_email == email))
             
-            if not self._session:
+            if self._session is None:
                 custom_logging.info("Session is not initialized")
                 return False
                 
-            is_duplicate_user = self._session.scalars(stmt)
+            is_duplicate_user = self._session.scalars(stmt).all()
             
             if is_duplicate_user:
                 custom_logging.error("This username or email already exists")
@@ -95,7 +100,6 @@ class User():
             self._session.commit()
 
             custom_logging.info(f"Welcome {username}. Signup successful")
-            
 
         except Exception as e:
             custom_logging.error(f"Login Error: {e}")
@@ -115,11 +119,15 @@ class User():
             cols = ["username", "email", "created_at", "updated_at"]
             
             # checking redis cache if this data is available
-            redis = RedisCache(REDIS_CONN)
+            if self._redis_conn is None:
+                custom_logging.error("Redis not initialized")
+                return False
+            
+            redis = RedisCache(self._redis_conn)
             
             REDIS_USER_DATA_KEY = f"{self._username}-{self._user_id}"
             cached_data = redis.get(REDIS_USER_DATA_KEY)
-            
+        
             # if not found, getting the data from database
             if not cached_data:
             

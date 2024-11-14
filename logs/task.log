@@ -881,3 +881,184 @@
 13-11-2024 18:34:42 - INFO - Exitting ......
 13-11-2024 18:34:42 - INFO - Logout Successful. Bye aditya
 13-11-2024 18:34:42 - INFO - Connection closed
+14-11-2024 10:21:00 - INFO - Engine created
+14-11-2024 10:21:05 - INFO - Login Successful. Welcome aditya
+14-11-2024 10:21:07 - WARNING - ====Cache miss====
+14-11-2024 10:21:07 - ERROR - Login Error: RedisCache.__exit__() takes 1 positional argument but 4 were given
+14-11-2024 10:21:07 - ERROR - Traceback to line no. 118
+14-11-2024 10:21:12 - INFO - Session closed
+14-11-2024 10:21:12 - INFO - Exitting ......
+14-11-2024 10:21:12 - INFO - Logout Successful. Bye aditya
+14-11-2024 10:21:12 - INFO - Connection closed
+14-11-2024 10:30:31 - INFO - Engine created
+14-11-2024 10:30:34 - INFO - Login Successful. Welcome aditya
+14-11-2024 10:30:37 - ERROR - Login Error: 'RedisCache' object does not support the context manager protocol
+14-11-2024 10:30:37 - ERROR - Traceback to line no. 121
+14-11-2024 10:30:40 - INFO - Session closed
+14-11-2024 10:30:40 - INFO - Exitting ......
+14-11-2024 10:30:40 - INFO - Logout Successful. Bye aditya
+14-11-2024 10:30:40 - INFO - Connection closed
+14-11-2024 10:39:29 - INFO - Engine created
+14-11-2024 10:39:31 - INFO - Login Successful. Welcome aditya
+14-11-2024 10:39:33 - ERROR - Redis get error: 'RedisConnection' object has no attribute 'get'
+14-11-2024 10:39:33 - ERROR - Traceback to line no. 43
+14-11-2024 10:39:33 - ERROR - Redis set error: 'RedisConnection' object has no attribute 'set'
+Traceback (most recent call last):
+  File "/home/aditya/test/orm/model/redis_cache/RedisCache.py", line 28, in set
+    res = self._redis.set(key, serialized_data)
+          ^^^^^^^^^^^^^^^
+AttributeError: 'RedisConnection' object has no attribute 'set'
+14-11-2024 10:41:31 - ERROR - Invalid task: [a
+14-11-2024 10:41:32 - INFO - Session closed
+14-11-2024 10:41:32 - INFO - Exitting ......
+14-11-2024 10:41:32 - INFO - Logout Successful. Bye aditya
+14-11-2024 10:41:32 - INFO - Connection closed
+14-11-2024 10:41:32 - INFO - Engine created
+14-11-2024 10:41:32 - INFO - Session closed
+14-11-2024 10:41:32 - ERROR - Oops Something went wrong! RedisConnection.__init__() missing 1 required positional argument: 'redis_config'
+14-11-2024 10:41:32 - ERROR - Traceback to line no. 18
+14-11-2024 10:41:32 - INFO - Connection closed
+14-11-2024 10:41:47 - INFO - Engine created
+14-11-2024 10:41:51 - INFO - Login Successful. Welcome aditya
+14-11-2024 10:41:54 - WARNING - ====Cache miss====
+14-11-2024 10:41:56 - INFO - ====Cache hit====
+14-11-2024 10:41:59 - INFO - ====Cache hit====
+14-11-2024 10:42:01 - INFO - Session closed
+14-11-2024 10:42:01 - INFO - Exitting ......
+14-11-2024 10:42:01 - INFO - Logout Successful. Bye aditya
+14-11-2024 10:42:01 - INFO - Connection closed
+14-11-2024 10:45:07 - INFO - Engine created
+14-11-2024 10:45:12 - ERROR - This username or email already exists
+14-11-2024 10:46:29 - INFO - Session closed
+14-11-2024 10:46:29 - INFO - Exitting ......
+14-11-2024 10:46:29 - INFO - Connection closed
+14-11-2024 10:46:32 - INFO - Engine created
+14-11-2024 10:46:37 - ERROR - Invalid email
+14-11-2024 10:47:29 - ERROR - This username or email already exists
+14-11-2024 10:47:33 - INFO - Session closed
+14-11-2024 10:47:33 - INFO - Exitting ......
+14-11-2024 10:47:33 - INFO - Connection closed
+14-11-2024 10:47:34 - INFO - Engine created
+14-11-2024 10:47:45 - ERROR - This username or email already exists
+14-11-2024 10:47:48 - INFO - Session closed
+14-11-2024 10:47:48 - INFO - Exitting ......
+14-11-2024 10:47:48 - INFO - Connection closed
+14-11-2024 10:48:18 - INFO - Engine created
+14-11-2024 10:48:29 - ERROR - This username or email already exists
+14-11-2024 10:48:50 - INFO - Session closed
+14-11-2024 10:48:50 - INFO - Exitting ......
+14-11-2024 10:48:50 - INFO - Connection closed
+14-11-2024 10:48:50 - INFO - Engine created
+14-11-2024 10:48:56 - INFO - Session closed
+14-11-2024 10:48:56 - INFO - Exitting ......
+14-11-2024 10:48:56 - INFO - Connection closed
+14-11-2024 10:48:57 - INFO - Engine created
+14-11-2024 10:49:06 - INFO - Welcome abc. Signup successful
+14-11-2024 10:49:20 - ERROR - Login Error: (MySQLdb.IntegrityError) (1062, "Duplicate entry 'abc' for key 'user_data.user_name'")
+[SQL: INSERT INTO user_data (username, user_email, user_password) VALUES (%s, %s, %s)]
+[parameters: ('abc', 'dkfjld@jdlkf.kdfjl', 'abcd')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+14-11-2024 10:49:20 - ERROR - Traceback to line no. 100
+14-11-2024 10:50:27 - INFO - Session closed
+14-11-2024 10:50:27 - INFO - Exitting ......
+14-11-2024 10:50:27 - INFO - Connection closed
+14-11-2024 10:50:28 - INFO - Engine created
+14-11-2024 10:50:35 - ERROR - Login Error: list index out of range
+14-11-2024 10:50:35 - ERROR - Traceback to line no. 94
+14-11-2024 10:50:49 - INFO - Session closed
+14-11-2024 10:50:49 - INFO - Exitting ......
+14-11-2024 10:50:49 - INFO - Connection closed
+14-11-2024 10:50:52 - INFO - Engine created
+14-11-2024 10:51:22 - INFO - Session closed
+14-11-2024 10:51:22 - INFO - Exitting ......
+14-11-2024 10:51:22 - INFO - Connection closed
+14-11-2024 10:51:24 - INFO - Engine created
+14-11-2024 10:51:33 - ERROR - This username or email already exists
+14-11-2024 10:52:47 - INFO - Session closed
+14-11-2024 10:52:47 - INFO - Exitting ......
+14-11-2024 10:52:47 - INFO - Connection closed
+14-11-2024 10:52:49 - INFO - Engine created
+14-11-2024 10:53:00 - ERROR - Login Error: (MySQLdb.IntegrityError) (1062, "Duplicate entry 'aditya' for key 'user_data.user_name'")
+[SQL: INSERT INTO user_data (username, user_email, user_password) VALUES (%s, %s, %s)]
+[parameters: ('aditya', 'dkfjd@kjdf.jdkf', 'dkfj')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+14-11-2024 10:53:00 - ERROR - Traceback to line no. 100
+14-11-2024 10:53:37 - INFO - Session closed
+14-11-2024 10:53:37 - INFO - Exitting ......
+14-11-2024 10:53:37 - INFO - Connection closed
+14-11-2024 10:53:37 - INFO - Engine created
+14-11-2024 10:53:45 - ERROR - Login Error: No row was found when one was required
+14-11-2024 10:53:45 - ERROR - Traceback to line no. 94
+14-11-2024 10:53:57 - INFO - Session closed
+14-11-2024 10:53:57 - INFO - Exitting ......
+14-11-2024 10:53:57 - INFO - Connection closed
+14-11-2024 10:53:58 - INFO - Engine created
+14-11-2024 10:54:08 - ERROR - Login Error: (MySQLdb.IntegrityError) (1062, "Duplicate entry 'aditya' for key 'user_data.user_name'")
+[SQL: INSERT INTO user_data (username, user_email, user_password) VALUES (%s, %s, %s)]
+[parameters: ('aditya', 'dkfj@kjldf.kdfl', 'dkfj')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+14-11-2024 10:54:08 - ERROR - Traceback to line no. 100
+14-11-2024 10:54:16 - INFO - Session closed
+14-11-2024 10:54:16 - INFO - Exitting ......
+14-11-2024 10:54:16 - INFO - Connection closed
+14-11-2024 10:54:17 - INFO - Engine created
+14-11-2024 10:54:25 - ERROR - Login Error: (MySQLdb.IntegrityError) (1062, "Duplicate entry 'aditya' for key 'user_data.user_name'")
+[SQL: INSERT INTO user_data (username, user_email, user_password) VALUES (%s, %s, %s)]
+[parameters: ('aditya', 'dkfj@jkdlf.kdjfl', 'kdjf')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+14-11-2024 10:54:25 - ERROR - Traceback to line no. 100
+14-11-2024 10:54:33 - INFO - Session closed
+14-11-2024 10:54:33 - INFO - Exitting ......
+14-11-2024 10:54:33 - INFO - Connection closed
+14-11-2024 10:54:35 - INFO - Engine created
+14-11-2024 10:54:52 - ERROR - This username or email already exists
+14-11-2024 10:54:59 - ERROR - This username or email already exists
+14-11-2024 10:55:54 - INFO - Session closed
+14-11-2024 10:55:54 - INFO - Exitting ......
+14-11-2024 10:55:54 - INFO - Connection closed
+14-11-2024 10:55:54 - INFO - Engine created
+14-11-2024 10:56:21 - INFO - Session closed
+14-11-2024 10:56:21 - INFO - Exitting ......
+14-11-2024 10:56:21 - INFO - Connection closed
+14-11-2024 10:56:21 - INFO - Engine created
+14-11-2024 10:56:23 - ERROR - Invalid task: signpu
+14-11-2024 10:56:33 - ERROR - Login Error: (MySQLdb.IntegrityError) (1062, "Duplicate entry 'aditya' for key 'user_data.user_name'")
+[SQL: INSERT INTO user_data (username, user_email, user_password) VALUES (%s, %s, %s)]
+[parameters: ('aditya', 'dfk@dlkfjd.kdfjl', 'fkd')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+14-11-2024 10:56:33 - ERROR - Traceback to line no. 100
+14-11-2024 10:56:48 - INFO - Session closed
+14-11-2024 10:56:48 - INFO - Exitting ......
+14-11-2024 10:56:48 - INFO - Connection closed
+14-11-2024 10:56:51 - INFO - Engine created
+14-11-2024 10:57:00 - ERROR - Login Error: (MySQLdb.IntegrityError) (1062, "Duplicate entry 'aditya' for key 'user_data.user_name'")
+[SQL: INSERT INTO user_data (username, user_email, user_password) VALUES (%s, %s, %s)]
+[parameters: ('aditya', 'dkfjl@kjdf.fjdkl', 'fkdjf')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+14-11-2024 10:57:00 - ERROR - Traceback to line no. 100
+14-11-2024 10:57:15 - INFO - Login Successful. Welcome aditya
+14-11-2024 10:57:18 - WARNING - ====Cache miss====
+14-11-2024 10:57:20 - INFO - ====Cache hit====
+14-11-2024 10:57:24 - INFO - ====Cache hit====
+14-11-2024 10:57:26 - INFO - Session closed
+14-11-2024 10:57:26 - INFO - Exitting ......
+14-11-2024 10:57:26 - INFO - Logout Successful. Bye aditya
+14-11-2024 10:57:26 - INFO - Connection closed
+14-11-2024 10:58:33 - INFO - Engine created
+14-11-2024 10:58:41 - ERROR - This username or email already exists
+14-11-2024 10:59:15 - INFO - Welcome test. Signup successful
+14-11-2024 10:59:26 - INFO - Session closed
+14-11-2024 10:59:26 - INFO - Exitting ......
+14-11-2024 10:59:26 - INFO - Connection closed
+14-11-2024 10:59:27 - INFO - Engine created
+14-11-2024 10:59:36 - ERROR - This username or email already exists
+14-11-2024 10:59:51 - INFO - Welcome new. Signup successful
+14-11-2024 10:59:53 - INFO - Session closed
+14-11-2024 10:59:53 - INFO - Exitting ......
+14-11-2024 10:59:53 - INFO - Connection closed
+14-11-2024 11:01:41 - INFO - Engine created - initialize - 43
+14-11-2024 11:02:04 - INFO - Login Successful. Welcome aditya - user_login - 49
+14-11-2024 11:02:07 - INFO - Session closed - get_session - 77
+14-11-2024 11:02:07 - INFO - Exitting ...... - <module> - 80
+14-11-2024 11:02:07 - INFO - Logout Successful. Bye aditya - user_logout - 74
+14-11-2024 11:02:07 - INFO - Connection closed - disconnect - 90

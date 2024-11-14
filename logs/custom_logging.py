@@ -12,7 +12,7 @@ console_formatter = logging.Formatter(
 )
 
 file_formatter = logging.Formatter(
-    "{asctime} - {levelname} - {message}",
+    "{asctime} - {levelname} - {message} - {funcName} - {lineno}",
     style="{",
     datefmt="%d-%m-%Y %H:%M:%S",
 )

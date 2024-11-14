@@ -59,7 +59,7 @@ class Connection(metaclass=SingletonMeta):
 
     @contextmanager
     def get_session(self):
-        """Returns sessions"""
+        """Returns session object"""
         
         self._check_initialized()
         
@@ -95,3 +95,9 @@ class Connection(metaclass=SingletonMeta):
             custom_logging.error(f"Traceback to line no. {trace_back.tb_lineno}")
         
         
+    def __enter__(self, db_config: dict):
+        self.initialize(db_config)
+        return self
+    
+    def __exit__(self):
+        self.disconnect()
