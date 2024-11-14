@@ -3,6 +3,7 @@ from sqlalchemy import literal_column, select, insert, and_, or_
 from logs.custom_logging import custom_logging
 from model.UserData import UserData
 from connection.connections import db_connection, redis_connection
+from helper.get_execution_time import get_execution_time_decorator
 
 class User:
     
@@ -10,7 +11,8 @@ class User:
         self._user_id = None
         self._username = None
         self.is_user = False
-        
+    
+    # @get_execution_time_decorator 
     def user_login(self, username, password):
         
         if self.is_user:
@@ -80,7 +82,7 @@ class User:
         except Exception as e:
             custom_logging.error(f"Signup Error: {e}", exc_info=True)
             
-            
+    @get_execution_time_decorator
     def get_user_data(self):
         if not self.is_user:
             custom_logging.warning("Log in to see your data")

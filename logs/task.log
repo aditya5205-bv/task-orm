@@ -193,3 +193,64 @@ AttributeError: 'MySqlConnection' object has no attribute '_check_initialized'
 14-11-2024 15:21:30 - INFO - Redis connection closed - disconnect - 48
 14-11-2024 15:21:38 - INFO - Connection closed - disconnect - 106
 14-11-2024 15:21:38 - INFO - Logout Successful. Bye testuser - user_logout - 55
+14-11-2024 15:52:32 - INFO - Engine created - __init__ - 41
+14-11-2024 15:52:55 - INFO - Engine created - __init__ - 41
+14-11-2024 15:53:01 - ERROR - Oops Something went wrong! update_wrapper() got multiple values for argument 'wrapped' - <module> - 63
+Traceback (most recent call last):
+  File "/home/aditya/test/orm/main.py", line 34, in <module>
+    user.user_login(username,password)
+TypeError: update_wrapper() got multiple values for argument 'wrapped'
+14-11-2024 15:53:01 - INFO - Connection closed - disconnect - 106
+14-11-2024 15:54:42 - INFO - Engine created - __init__ - 41
+14-11-2024 15:54:47 - ERROR - Oops Something went wrong! update_wrapper() got multiple values for argument 'wrapped' - <module> - 63
+Traceback (most recent call last):
+  File "/home/aditya/test/orm/main.py", line 34, in <module>
+    user.user_login(username,password)
+TypeError: update_wrapper() got multiple values for argument 'wrapped'
+14-11-2024 15:54:47 - INFO - Connection closed - disconnect - 106
+14-11-2024 15:57:31 - INFO - Engine created - __init__ - 41
+14-11-2024 15:57:36 - INFO - Session closed - _get_session - 73
+14-11-2024 15:57:36 - INFO - Login Successful. Welcome aditya - user_login - 35
+14-11-2024 15:57:36 - INFO - === Time taken to run function user_login is:                             0.022410839999793097 seconds === - wrapper - 15
+14-11-2024 15:57:41 - INFO - Exitting ...... - <module> - 60
+14-11-2024 15:57:41 - INFO - Connection closed - disconnect - 106
+14-11-2024 15:57:41 - INFO - Logout Successful. Bye aditya - user_logout - 57
+14-11-2024 15:58:01 - INFO - Engine created - __init__ - 41
+14-11-2024 15:58:04 - INFO - Session closed - _get_session - 73
+14-11-2024 15:58:04 - INFO - Login Successful. Welcome aditya - user_login - 35
+14-11-2024 15:58:04 - INFO - === Time taken to run function user_login is:0.022149606025777757 seconds === - wrapper - 15
+14-11-2024 15:58:30 - INFO - Exitting ...... - <module> - 60
+14-11-2024 15:58:30 - INFO - Connection closed - disconnect - 106
+14-11-2024 15:58:30 - INFO - Logout Successful. Bye aditya - user_logout - 57
+14-11-2024 15:59:12 - INFO - Engine created - __init__ - 41
+14-11-2024 15:59:17 - INFO - Session closed - _get_session - 73
+14-11-2024 15:59:17 - INFO - Login Successful. Welcome aditya - user_login - 35
+14-11-2024 15:59:21 - WARNING - ====Cache miss==== - get - 93
+14-11-2024 15:59:21 - INFO - Session closed - _get_session - 73
+14-11-2024 15:59:21 - INFO - Redis connection closed - disconnect - 48
+14-11-2024 15:59:21 - INFO - === Time taken to run function get_user_data is:0.014843290991848335 seconds === - wrapper - 15
+14-11-2024 15:59:27 - INFO - ====Cache hit==== - get - 96
+14-11-2024 15:59:27 - INFO - Redis connection closed - disconnect - 48
+14-11-2024 15:59:27 - INFO - === Time taken to run function get_user_data is:0.0013548209972213954 seconds === - wrapper - 15
+14-11-2024 15:59:30 - INFO - ====Cache hit==== - get - 96
+14-11-2024 15:59:30 - INFO - Redis connection closed - disconnect - 48
+14-11-2024 15:59:30 - INFO - === Time taken to run function get_user_data is:0.0012249849969521165 seconds === - wrapper - 15
+14-11-2024 15:59:32 - INFO - Exitting ...... - <module> - 60
+14-11-2024 15:59:32 - INFO - Connection closed - disconnect - 106
+14-11-2024 15:59:32 - INFO - Logout Successful. Bye aditya - user_logout - 57
+14-11-2024 16:27:35 - INFO - Engine created - __init__ - 41
+14-11-2024 16:27:39 - INFO - Session closed - _get_session - 73
+14-11-2024 16:27:39 - INFO - Login Successful. Welcome aditya - user_login - 35
+14-11-2024 16:27:43 - WARNING - ====Cache miss==== - get - 93
+14-11-2024 16:27:43 - INFO - Session closed - _get_session - 73
+14-11-2024 16:27:43 - INFO - Redis connection closed - disconnect - 48
+14-11-2024 16:27:43 - INFO - === Time taken to run function get_user_data is:0.013712860003579408 seconds === - wrapper - 15
+14-11-2024 16:27:48 - INFO - ====Cache hit==== - get - 96
+14-11-2024 16:27:48 - INFO - Redis connection closed - disconnect - 48
+14-11-2024 16:27:48 - INFO - === Time taken to run function get_user_data is:0.0011887559958267957 seconds === - wrapper - 15
+14-11-2024 16:27:53 - INFO - ====Cache hit==== - get - 96
+14-11-2024 16:27:53 - INFO - Redis connection closed - disconnect - 48
+14-11-2024 16:27:53 - INFO - === Time taken to run function get_user_data is:0.0011707799858413637 seconds === - wrapper - 15
+14-11-2024 16:27:54 - INFO - Exitting ...... - <module> - 60
+14-11-2024 16:27:54 - INFO - Connection closed - disconnect - 106
+14-11-2024 16:27:54 - INFO - Logout Successful. Bye aditya - user_logout - 57
